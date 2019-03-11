@@ -1,0 +1,284 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{fixltx2e}
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{hernán}{morales}{full-stack developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Calle 25 no. 506
+La Plata (1900), Buenos Aires
+Argentina
+~
++54 (221) 479-7117
+~
+\href{mailto:hernan.morales@gmail.com}{hernan.morales}
+\href{http://80738163270632.blogspot.com/}{http://80738163270632}
+\href{http://biosmalltalk.blogspot.com/}{http://biosmalltalk}
+\href{https://www.linkedin.com/in/hernanm}{li://hernanm}
+\href{https://github.com/hernanmd}{gh://hernanmd}
+\section{languages}
+spanish mother tongue
+english advanced
+français, lu bien, parlé et écrit régulier
+\section{programming}
+{\color{red} $\varheartsuit$} Smalltalk
+Bash, R, Python, Solidity, C++, SPARQL
+GoLang, CSS3 \& HTML5
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2019}
+{Decentralized Applications (Dapps)}
+{University at Buffalo and The State University of New York}
+{Grade Achieved: 94.9\%}
+
+%------------------------------------------------
+
+\entry
+{2018}
+{Smart Contracts}
+{University at Buffalo and The State University of New York}
+{Grade Achieved: 88.0\%}
+
+%------------------------------------------------
+
+\entry
+{2014}
+{R Programming}
+{Johns Hopkins University.}
+{Grade Achieved: 88.8\%}
+
+%------------------------------------------------
+
+\entry
+{2014}
+{Bioinformatics: Introduction and Methods}
+{Peking University}
+{Grade Achieved: 95.2\% with Distinction.}
+%------------------------------------------------
+
+%------------------------------------------------
+
+\entry
+{1996--2003}
+{Computer Science (4th Years)}
+{Facultad de Informática. UNLP, Argentina}
+%------------------------------------------------
+
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\subsection{Full Time}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2010--Now}
+{CONICET}
+{La Plata, Buenos Aires}
+{\emph{Developer @ IGEVET. Institute of Veterinary Genetics} \\
+Requirements engineering, project management, 
+coding, documentation and testing. Common tasks in my work are data engineering
+for biologists and geneticists, determine software and hardware needs, specify and evaluate
+technology brands and vendors \\
+Detailed achievements:
+\begin{itemize}
+\item Created BioSmalltalk, the first pure-objects library for Bioinformatics.
+\item Applied Data Science with R and Python scripting.
+\item Built Institutional front-ends (HTML, CSS3, PHP, Smalltalk). 
+\item Developed HPC cluster from scratch (Qlustar, Singularity, Galaxy).
+\item Developed Phylogeography text-mining system, Microarray and NGS big data sets.
+\end{itemize}}
+
+\entry
+{2006--2009}
+{CONICET}
+{Ciudad Autónoma de Buenos Aires, Argentina}
+{\emph{Developer @ CAICYT} \\
+Bibliographic Management System Project. First implementation of FRBR-oo reference model in Smalltalk, including major improvements. Experience with expertise visualization, website usability and optimization. Integration of multiple Information Systems (from National ISIS Database). Open-sourced libraries and toolkits. Experience with GemStone/S OODB and Seaside Web Framework.}
+
+
+%------------------------------------------------
+
+\entry
+{2004-2005}
+{Reyes Infográfica}
+{Remote Work}
+{\emph{Developer} \\
+Technology Project for 3-D Virtual Fashion Works. Developement and implementation of an ANSI high-performance Smalltalk dialect, an interface with a propietary 3D engine and several frameworks, including GUI and navigational tools.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{awards}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2016}
+{INNOVAR 2016}
+{Ministerio de Ciencia, Tecnología e Innovación Productiva. Argentina}
+{For Applied Research in the Design of SNP Microarray “ArBos1”.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{communication skills}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2016--2017}
+{Oral Presentations}
+{IGEVET, Argentina}
+{As part of the annual semminary for researchers, I gave speaks about state of Information Technology Infrastructure at the Institute.}
+
+%------------------------------------------------
+
+\entry
+{2011}
+{Oral Presentation}
+{XL Genetics National Argentine Conference. Corrientes, Argentina}
+{Introduction to Bioinformatics Programming}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} software design, project management, web apps, IT security 
+\textbf{personal:} guitar player, argumentation theory, tango dancing.
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{publications}
+
+\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+
+\begin{entrylist}
+
+\entry
+{2018}
+{Genomic structural diversity in Criollo Argentino horses: analysis of copy number variations}
+{Accepted}
+{Gene}
+
+\entry
+{2017}
+{Evidence of positive selection in the BoLA region of Brangus cattle}
+{DOI: 10.1017/S1751731117001380}
+{Animal Journal}
+
+\entry
+{2016}
+{DNA profile of dog feces as evidence to solve a homicide}
+{DOI: 10.1016/j.legalmed.2016.08.002}
+{Legal Medicine 22:54-57}
+
+\entry
+{2014}
+{Foreign meat identification by DNA breed assignment for the Chinese market}
+{DOI: 10.1016/j.meatsci.2014.07.028.}
+{Meat Science 98(4):822–827}
+
+\entry
+{2013}
+{BioSmalltalk: a pure object system and library for bioinformatics}
+{DOI: 10.1093/bioinformatics/btt398}
+{Bioinformatics}
+
+\entry
+{2007}
+{Introduction to object-oriented databases with db4o, .NET C\# \& Java}
+{DOI: 10.1093/bioinformatics/btt398}
+{Solo Programadores n. 150 (June 2007)}
+
+
+\end{entrylist}
+
+\printbibsection{book}{books} % Print all books from the bibliography
+
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=bibheading]
+\end{refsection}
+
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=bibheading]
+\end{refsection}
+
+\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+
+\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
